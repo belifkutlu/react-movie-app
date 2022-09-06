@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0px;
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #091921;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  width: 1000px;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
+}
+
+.header h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+}
+
+.header input {
+  width: 70%;
+  margin: 10px auto;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(133, 133, 133, 0.8);
+}
+
+.section {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  position: relative;
+  width: 21%;
+  border: 1px solid #ccc;
+  margin: 10px 2px;
+  padding: 10px;
+  box-shadow: 5px 5px 30px #0003;
+  color: #fff;
+  background-image: url("https://tr.web.img4.acsta.net/pictures/bzp/01/6272.jpg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+} */
+
+.content {
+  padding: 10px;
+  background-color: #091921;
+  position: absolute;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 5px;
+}
+
+.star-icon {
+  margin-right: 5px;
 }

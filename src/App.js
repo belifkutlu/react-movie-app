@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import StarIcon from "./components/icons/StarIcon";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <div className="header">
+          <h1>Movie App</h1>
+          <input type="text" placeholder="search movie" />
+        </div>
+        <div className="section">
+          <div className="card">
+            <div className="content">
+              <h4>Evde Tek Basina</h4>
+              <span className="rating">4.5</span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <h4>Evde Tek Basina</h4>
+              <span className="rating">4.5</span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <h4>Evde Tek Basina</h4>
+              <span className="rating">4.5</span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <h4>Evde Tek Basina</h4>
+              <span className="rating">4.5</span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="content">
+              <h4>Evde Tek Basina</h4>
+              <StarIcon className="star-icon" />
+              <span className="rating">4.5</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
