@@ -45,43 +45,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.card {
-  position: relative;
-  width: 21%;
-  border: 1px solid #ccc;
-  margin: 10px 2px;
-  padding: 10px;
-  box-shadow: 5px 5px 30px #0003;
-  color: #fff;
-  background-image: url("https://tr.web.img4.acsta.net/pictures/bzp/01/6272.jpg");
-  background-repeat: no-repeat;
-  background-color: #cccccc;
-  height: 350px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 5px;
-}
-
-/* .card img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-} */
-
-.content {
-  padding: 10px;
-  background-color: #091921;
-  position: absolute;
+.movie-not-found {
+  color: #ffff;
+  font-weight: 600;
   text-align: center;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  border-radius: 5px;
-}
-
-.star-icon {
-  margin-right: 5px;
 }
