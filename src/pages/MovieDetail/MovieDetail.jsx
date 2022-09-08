@@ -14,7 +14,7 @@ function MovieDetail() {
     fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=89bbf049`)
       .then((res) => res.json())
       .then((movie) => setMovie(movie));
-  }, []);
+  }, [imdbID]);
 
   if (movie === null) {
     return <p style={{ color: "white" }}>Loading...</p>;
