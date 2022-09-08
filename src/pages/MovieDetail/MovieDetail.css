@@ -1,0 +1,111 @@
+.movie-container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.poster {
+  object-fit: cover;
+  border: 2px solid rgb(255, 177, 60);
+  border-radius: 5px;
+}
+.poster img {
+  width: 20rem;
+
+  border-radius: 5px;
+}
+
+.movie-section {
+  display: block;
+  width: 62%;
+  margin-top: 0;
+}
+
+.movie-section h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: rgb(255, 221, 174);
+}
+
+.movie-name span {
+  color: rgb(255, 177, 60);
+}
+
+.dsc {
+  color: rgb(255, 221, 174);
+}
+
+.dsc,
+.movie-date,
+.genre,
+.crew {
+  margin-bottom: 20px;
+}
+
+.overwiev {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.movie-date {
+  font-size: 18px;
+}
+.movie-date span {
+  margin-left: 5px;
+  font-size: 16px;
+  color: rgb(255, 177, 60);
+}
+
+.genre {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.genre button {
+  margin-left: 5px;
+  border: none;
+  background-color: rgb(255, 177, 60);
+  color: rgb(255, 221, 174);
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.crew {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.director-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.director {
+  background-color: rgb(255, 177, 60);
+  border-radius: 5px;
+  width: 30%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.director strong {
+  display: flex;
+  align-items: center;
+}
+
+.director span {
+  margin-left: 30px;
+}
+
+.camera-icon {
+  color: rgb(255, 255, 255);
+  margin-right: 5px;
+}
