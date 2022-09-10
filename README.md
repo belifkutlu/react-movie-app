@@ -4,7 +4,7 @@
 
 ## Desktop Screenshots
 
-![desktop 1](https://github.com/belifkutlu/react-movie-app/blob/master/src/assets/belifkutlu-react-movie-app.netlify.app_%20(1).png?raw=true?raw=true) -->
+![desktop 1](https://github.com/belifkutlu/react-movie-app/blob/master/src/assets/belifkutlu-react-movie-app.netlify.app_%20(1).png?raw=true?raw=true) 
 
 
 ## Getting Started with Create React App
