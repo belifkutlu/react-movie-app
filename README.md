@@ -2,6 +2,11 @@
 
 [DEMO URL](https://belifkutlu-react-movie-app.netlify.app/)
 
+<!-- ### Desktop Screenshots -->
+
+<!-- ![desktop 1](https://github.com/belifkutlu/react-movie-app/blob/master/src/assets/belifkutlu-react-movie-app.netlify.app_%20(1).png?raw=true?raw=true) -->
+
+
 ## Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
