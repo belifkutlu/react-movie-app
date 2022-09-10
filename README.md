@@ -1,4 +1,5 @@
-#DEMO URL
+# DEMO URL
+
 [DEMO URL](https://belifkutlu-react-movie-app.netlify.app/)
 
 ## Getting Started with Create React App
