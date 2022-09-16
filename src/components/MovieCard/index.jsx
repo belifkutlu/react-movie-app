@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-
-import "./movie-card.css";
 import StarIcon from "../icons/StarIcon";
+import "./movie-card.css";
 
 function MovieCard({ title, img, rating, imdbID }) {
   return (
