@@ -30,6 +30,10 @@
   color: rgb(255, 221, 174);
 }
 
+.movie-section ,  .section-error{
+  color: white;
+}
+
 .movie-name span {
   color: rgb(255, 177, 60);
 }
